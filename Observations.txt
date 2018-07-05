@@ -1,0 +1,7 @@
+1- Even though the parameters for pulling cities from Citipy were set to generate locations between -90 and 90 latitudes, cities are never generated below -60 latitude. 
+	This is because the southernmost tip of South America is at around -55 latitude, and there is only one permanent settlement south of that in Antarctica.
+
+2 - It would be expected that the highest temperatures would be concentrated around the equator at 0 latitude and that temperatures would be evenly distributed around the equator, but this is not the case.
+	Temperatures in latitudes north of the equator are signifigantly higher than in latitudes south of the equator, because right now it is Summer in the northern hemisphere and winter in the southern hemisphere.
+
+3 - There does not seem to be any significant correlation between latitude and cloudiness or wind speed, but low humidity (>50%) seems to be more common in the northern hemisphere.
